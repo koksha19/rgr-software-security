@@ -1,0 +1,11 @@
+{
+  "mtu": 1400,
+  "bitrate": 0,
+  "nodes": {
+    "Client": 5001,
+    "Server": 5002
+  },
+  "links": [
+    ["Client", "Server"]
+  ]
+}

@@ -1,0 +1,9 @@
+route A G
+handshake A G
+send A G Привіт, G! Повідомлення йде через B, D та E.
+file A G files/message.txt
+broadcast C Загальне повідомлення для всієї мережі
+handshake G X
+revoke E
+handshake B E
+stats

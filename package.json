@@ -1,0 +1,17 @@
+{
+  "name": "rgr-tls-handshake",
+  "version": "1.0.0",
+  "description": "РГР: імітація TLS/SSL рукостискання, захищений канал, центр сертифікації, розподілена топологія з маршрутизацією та бродкастом",
+  "private": true,
+  "scripts": {
+    "ca": "node src/ca-server.js",
+    "basic": "node src/network.js topologies/basic.json --script scripts/basic.txt",
+    "mesh": "node src/network.js topologies/mesh.json"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "node-forge": "^1.3.1"
+  }
+}

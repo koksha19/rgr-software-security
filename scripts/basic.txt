@@ -1,0 +1,5 @@
+handshake Client Server
+send Client Server Привіт, сервере! Це повідомлення йде захищеним каналом.
+send Server Client Привіт, клієнте! Повідомлення отримано.
+file Client Server files/message.txt
+stats
